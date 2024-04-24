@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+#Schermo{
+    display: flex;
+}
+
+#sidebar {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 20px;
+}
+#art{
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    background-color: yellow;
+    border-radius: 80px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.foto img {
+    width: 100px;
+}
+
+#card {
+    display: flex;
+    border-radius: 80px;
+}
+.foto {
+    width: 150px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto button{
+    align-items: center;
+}
+
+li img {
+    width: 50px;
+}
+
+li {
+    display: flex;
+    align-items: center; /* Centra il contenuto verticalmente */
+}
+#main{
+    display: flex;
+    margin: 20px;
+    background-color: bisque;
+    padding: 50px;
+    border-radius: 30px;
+}
+h1{
+    margin-left:25px ;
+    color: brown;
+}
+#descmain{
+    padding: 10px;
+}
+#desc{
+    display: flex;
+}
+button{
+    background-color: yellow;
+    border-radius: 30%;
+}
